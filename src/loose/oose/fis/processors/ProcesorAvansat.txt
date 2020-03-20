@@ -1,0 +1,11 @@
+package loose.oose.fis.processors;
+
+import loose.oose.fis.documents.Document;
+
+public class ProcesorAvansat implements Procesor{
+	private String text;
+
+	public ProcesorAvansat(String text){
+		this.text = text;
+	}
+}
