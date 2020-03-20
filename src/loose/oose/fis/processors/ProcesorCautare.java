@@ -19,7 +19,7 @@ public class ProcesorCautare implements Procesor {
             String[] continut = document.analizeaza();
             for (String cuvant : continut) {
                 if (cuvant.equals(text)) {
-                    res++;
+                    res--;
                 }
             }
         }
